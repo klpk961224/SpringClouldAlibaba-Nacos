@@ -1,0 +1,26 @@
+server:
+  port: ${port:56010}
+
+spring:
+  application:
+    name: server-provider
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+logging:
+  level:
+    root: info
+    org.springframework: info
