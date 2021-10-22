@@ -1,5 +1,5 @@
 server:
-  port: ${port:56010}
+  port: ${port:56010} #${}表示动态传参，没传默认是56010
 
 spring:
   application:
