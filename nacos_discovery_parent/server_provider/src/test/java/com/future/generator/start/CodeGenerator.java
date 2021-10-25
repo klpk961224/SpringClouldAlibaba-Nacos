@@ -1,4 +1,4 @@
-package com.future.nacos.generator.start;
+package com.future.generator.start;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
